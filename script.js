@@ -1,15 +1,32 @@
 window.addEventListener('load', init)
 const words = [
-    'hat',
-    'bat',
-    'sat',
-    'match',
-    'catch',
-    'batch'
+    'amateur',
+    'religion',
+    'tastes',
+    'hypochondriac',
+    'henpeck',
+    'indefatigable',
+    'institutions',
+    'introvert',
+    'immoral',
+    'impregnable',
+    'insolvent',
+    'lunatic',
+    'societye',
+    'expense',
+    'narcissist',
+    'who',
+    'philogynist',
+    'mankindt',
+    'polyglot',
+    'recluse',
+    'somnambulist',
+    'person',
+    'scolding'
 ]
 
 
-let time = 5
+let time = 10
 let score = 0
 let isPlaying
 
@@ -27,16 +44,16 @@ function init() {
 function satrtMatch() {
     if (matchWords()) {
         isPlaying = true
-        time = 6
+        time = 11
         showWords(words)
         wordInput.value = ""
         score++
     }
 
-    if(score === -1){
+    if (score === -1) {
         scoreDisplay.innerHTML = 0
-    }else{
-        scoreDisplay.innerHTML = score 
+    } else {
+        scoreDisplay.innerHTML = score
     }
 }
 function matchWords() {
