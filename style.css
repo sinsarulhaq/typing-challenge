@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-sec{
+    background-color: #293B5F;
+    font-family: 'Slabo 27px', serif;
+}
+.main-head{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.red{
+    color: red;
+}
+.sub-head{
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.current{
+    color: #fff;
+    font-family: 'Slabo 27px', serif;
+}
